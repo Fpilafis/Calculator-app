@@ -13,6 +13,7 @@ body {
 .sol {
     justify-content: end;
     text-align: end;
+    margin-left: 10px;
 }
 
 .input {
@@ -77,22 +78,28 @@ body {
     }
 }
 
-@media (min-width: 400px){
+@media (min-width: 200px){
     .justify-content-sm-around {
         -ms-flex-pack: distribute!important;
         justify-content: space-around!important;
     }
 }
 
-@media (max-width: 453px){
+/*@media (max-width: 453px){
     .input {
         text-align:left
     }
-}
+}*/
 
 @media (max-width: 453px){
     .container {
-        width: 100%;
-        margin-right: 5px;
+        width: 80vh;
         }
 }
+
+@media (max-width: 400px){
+    .h1 {
+        width: 90%;
+        }
+}
+
