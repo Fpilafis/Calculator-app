@@ -71,6 +71,11 @@ body {
     max-width: 200px;
 }
 
+@media (min-width: 400px){
+    body {
+        justify-content: center;
+    }
+}
 
 @media (min-width: 400px){
     .justify-content-sm-around {
