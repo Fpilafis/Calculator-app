@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(79, 93, 138);
+    color: aliceblue;
+}
+
+.nav {
+    /*background-color:rgba(46, 49, 75, 0.884);*/
+    margin-top: 150px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.sol {
+    justify-content: end;
+    text-align: end;
+}
+
+.input {
+    background-color: rgb(41, 44, 73);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    height: 100px;
+    text-align: end;
+}
+
+.botones {
+    background-color: rgba(46, 49, 75, 0.884);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.row {
+    min-width: 490px;
+}
+
+.boton{
+    height: 53px;
+    color: rgba(46, 49, 75, 0.61);
+    border-bottom: 4px solid rgba(14, 9, 9, 0.322);
+    border-radius: 8px;
+    max-width: 81px;
+}
+
+.reset {
+    background-color: rgba(101, 142, 255, 0.753);
+    border-bottom: 4px solid rgba(14, 9, 9, 0.322);
+    border-radius: 8px;
+    height: 53px;
+    color: aliceblue;
+    max-width: 200px;
+}
+
+.del {
+    background-color: rgba(101, 142, 255, 0.753);
+    border-bottom: 4px solid rgba(14, 9, 9, 0.322);
+    border-radius: 8px;
+    height: 53px;
+    color: aliceblue;
+    max-width: 81px;
+}
+
+.btn-danger {
+    background-color: rgba(255, 95, 95, 0.87);
+    border-bottom: 4px solid rgba(14, 9, 9, 0.322);
+    border-radius: 8px;
+    height: 53px;
+    color: aliceblue;
+    max-width: 200px;
+}
+
+
+@media (min-width: 433px){
+    .justify-content-sm-around {
+        -ms-flex-pack: distribute!important;
+        justify-content: space-around!important;
+    }
+}
+
+@media (max-width: 453px){
+    .input {
+        text-align:left
+    }
+}
+

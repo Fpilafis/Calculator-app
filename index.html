@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Calculator app</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css' />
+</head>
+<body>
+  <nav>
+    <div class="container p-2 nav">
+      <h3>Calculator</h3>
+      <div class="sol d-flex">
+        <button class="sol btn ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
+            <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high" viewBox="0 0 16 16">
+            <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div class="container mt-2 mb-2 input">
+      <div class="container h1">123</div>
+    </div>
+    <div class="container botones text-center ">
+      <div class="row p-1 d-flex justify-content-sm-around">
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">7</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">8</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">9</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-primary del h3">DEL</div>
+      </div>
+      <div class="row p-1 d-flex justify-content-sm-around">
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">4</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">5</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">6</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">+</div>
+      </div>
+      <div class="row p-1 d-flex justify-content-sm-around">
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">1</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">2</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">3</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">-</div>
+      </div>
+      <div class="row p-1 d-flex justify-content-sm-around">
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">.</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">0</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">/</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">x</div>
+      </div>
+      <div class="row p-1 d-flex justify-content-sm-around">
+        <div class="col-sm-5 p-2 m-2 btn-primary reset h3">RESET</div>
+        <div class="col-sm-5 p-2 m-2 btn-danger h3">=</div>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid"></div>
+  <script src="app.js"></script>
+</body>
+</html>
