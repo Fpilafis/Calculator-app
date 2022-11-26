@@ -6,7 +6,9 @@
     --body-color: rgb(79, 93, 138);
     --input-color: rgb(41, 44, 73);
     --aliceblue: aliceblue;
-    --danger: rgba(255, 95, 95, 0.87)
+    --danger: rgba(255, 95, 95, 0.87);
+    --background-boton: white;
+    --change-background: rgba(255, 255, 255, 0);
 }
 
 :root.light {
@@ -18,7 +20,28 @@
     --input-color: rgb(255, 255, 255);
     --aliceblue: rgba(0, 0, 0, 0.712);
     --danger: rgba(255, 159, 95, 0.87);
+    --background-boton: white;
+    --change-background: rgba(255, 255, 255, 0);
 }
+
+:root.superdark {
+    --borde-botton: rgba(122, 0, 153, 0.486);
+    --botones-color: rgba(77, 0, 112, 0.884);
+    --boton-color: rgba(251, 255, 0, 0.938);
+    --reset-del-color: rgba(197, 73, 255, 0.781);
+    --body-color: rgb(38, 0, 53);
+    --input-color: rgba(77, 0, 112, 0.884);
+    --aliceblue: rgba(251, 255, 0, 0.938);
+    --danger: rgba(95, 255, 242, 0.87);
+    --background-boton: rgba(152, 0, 223, 0.829);
+    --change-background: rgba(255, 255, 255, 0);
+}
+
+
+.change {
+    background-color: var(--change-background);
+}
+
 
 body {
     background-color: var(--body-color);
@@ -63,6 +86,7 @@ body {
 .boton{
     height: 53px;
     color: var(--boton-color);
+    background-color: var(--background-boton);
     border-bottom: 4px solid var(--borde-botton);
     border-radius: 8px;
     max-width: 16%;
