@@ -1,6 +1,28 @@
+:root.dark {
+    --borde-botton: rgba(14, 9, 9, 0.322);
+    --botones-color: rgba(46, 49, 75, 0.884);
+    --boton-color: rgba(46, 49, 75, 0.61);
+    --reset-del-color: rgba(101, 142, 255, 0.753);
+    --body-color: rgb(79, 93, 138);
+    --input-color: rgb(41, 44, 73);
+    --aliceblue: aliceblue;
+    --danger: rgba(255, 95, 95, 0.87)
+}
+
+:root.light {
+    --borde-botton: rgba(14, 9, 9, 0.322);
+    --botones-color: rgba(206, 206, 206, 0.884);
+    --boton-color: rgba(46, 49, 75, 0.61);
+    --reset-del-color: rgba(101, 142, 255, 0.753);
+    --body-color: rgb(231, 223, 223);
+    --input-color: rgb(255, 255, 255);
+    --aliceblue: rgba(0, 0, 0, 0.712);
+    --danger: rgba(255, 159, 95, 0.87);
+}
+
 body {
-    background-color: rgb(79, 93, 138);
-    color: aliceblue;
+    background-color: var(--body-color);
+    color: var(--aliceblue);
     min-width: 252px;
 }
 
@@ -11,14 +33,14 @@ body {
     border-radius: 10px;
 }
 
-.sol {
+.sol-luna {
     justify-content: end;
     text-align: end;
     margin-left: 10px;
 }
 
 .input {
-    background-color: rgb(41, 44, 73);
+    background-color: var(--input-color);
     padding: 20px;
     width: 500px;
     border-radius: 10px;
@@ -27,7 +49,7 @@ body {
 }
 
 .botones {
-    background-color: rgba(46, 49, 75, 0.884);
+    background-color: var(--botones-color);
     padding: 20px;
     width: 500px;
     border-radius: 10px;
@@ -40,27 +62,27 @@ body {
 
 .boton{
     height: 53px;
-    color: rgba(46, 49, 75, 0.61);
-    border-bottom: 4px solid rgba(14, 9, 9, 0.322);
+    color: var(--boton-color);
+    border-bottom: 4px solid var(--borde-botton);
     border-radius: 8px;
     max-width: 16%;
 }
 
 .reset {
-    background-color: rgba(101, 142, 255, 0.753);
-    border-bottom: 4px solid rgba(14, 9, 9, 0.322);
+    background-color: var(--reset-del-color);
+    border-bottom: 4px solid var(--borde-botton);
     border-radius: 8px;
     height: 53px;
-    color: aliceblue;
+    color: var(--aliceblue);
     max-width: 40.81%;
 }
 
 .del {
-    background-color: rgba(101, 142, 255, 0.753);
-    border-bottom: 4px solid rgba(14, 9, 9, 0.322);
+    background-color: var(--reset-del-color);
+    border-bottom: 4px solid var(--borde-botton);
     border-radius: 8px;
     height: 53px;
-    color: aliceblue;
+    color: var(--aliceblue);
     max-width: 16%;
     font-size: 180%;
 }
@@ -70,11 +92,11 @@ body {
 }
 
 .btn-danger {
-    background-color: rgba(255, 95, 95, 0.87);
-    border-bottom: 4px solid rgba(14, 9, 9, 0.322);
+    background-color: var(--danger);
+    border-bottom: 4px solid var(--borde-botton);
     border-radius: 8px;
     height: 53px;
-    color: aliceblue;
+    color: var(--aliceblue);
     max-width: 40.81%;
 }
 
