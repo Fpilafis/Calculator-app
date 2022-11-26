@@ -1,6 +1,7 @@
 body {
     background-color: rgb(79, 93, 138);
     color: aliceblue;
+    min-width: 252px;
 }
 
 .nav {
@@ -34,7 +35,7 @@ body {
 }
 
 .row {
-    min-width: 490px;
+    min-width: 80%;
 }
 
 .boton{
@@ -42,7 +43,7 @@ body {
     color: rgba(46, 49, 75, 0.61);
     border-bottom: 4px solid rgba(14, 9, 9, 0.322);
     border-radius: 8px;
-    max-width: 81px;
+    max-width: 16%;
 }
 
 .reset {
@@ -51,7 +52,7 @@ body {
     border-radius: 8px;
     height: 53px;
     color: aliceblue;
-    max-width: 200px;
+    max-width: 40.81%;
 }
 
 .del {
@@ -60,7 +61,12 @@ body {
     border-radius: 8px;
     height: 53px;
     color: aliceblue;
-    max-width: 81px;
+    max-width: 16%;
+    font-size: 180%;
+}
+
+.dell {
+    max-width: 16%;
 }
 
 .btn-danger {
@@ -69,7 +75,7 @@ body {
     border-radius: 8px;
     height: 53px;
     color: aliceblue;
-    max-width: 200px;
+    max-width: 40.81%;
 }
 
 @media (min-width: 400px){
@@ -85,21 +91,29 @@ body {
     }
 }
 
-/*@media (max-width: 453px){
-    .input {
-        text-align:left
-    }
-}*/
 
-@media (max-width: 453px){
+@media (max-width: 530px){
     .container {
-        width: 80vh;
+        width: 95%;
         }
 }
+
 
 @media (max-width: 400px){
     .h1 {
         width: 90%;
+        }
+}
+
+@media (max-width: 400px){
+    .del {
+        font-size: 130%;
+        }
+}
+
+@media (max-width: 315px){
+    .del {
+        font-size: 100%;
         }
 }
 
