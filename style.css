@@ -9,6 +9,10 @@
     --danger: rgba(255, 95, 95, 0.87);
     --background-boton: white;
     --change-background: rgba(255, 255, 255, 0);
+    --reset-del-color-hover: rgba(67, 117, 253, 0.856);
+    --danger-hover: rgb(255, 95, 95);
+    --reset-del-color-active: rgba(67, 117, 253, 0.692);
+    --danger-active: rgba(255, 95, 95, 0.849);
 }
 
 :root.light {
@@ -22,6 +26,10 @@
     --danger: rgba(255, 159, 95, 0.87);
     --background-boton: white;
     --change-background: rgba(255, 255, 255, 0);
+    --reset-del-color-hover: rgba(55, 105, 245, 0.774);
+    --danger-hover: rgb(255, 154, 86);
+    --reset-del-color-active: rgba(55, 106, 245, 0.637);
+    --danger-active: rgba(255, 154, 86, 0.87);
 }
 
 :root.superdark {
@@ -35,6 +43,10 @@
     --danger: rgba(95, 255, 242, 0.87);
     --background-boton: rgba(152, 0, 223, 0.829);
     --change-background: rgba(255, 255, 255, 0);
+    --reset-del-color-hover: rgba(193, 62, 253, 0.993);
+    --danger-hover: rgb(60, 255, 239);
+    --reset-del-color-active: rgba(192, 62, 253, 0.712);
+    --danger-active: rgba(60, 255, 239, 0.877);
 }
 
 
@@ -67,9 +79,20 @@ body {
     padding: 20px;
     width: 500px;
     border-radius: 10px;
-    height: 100px;
+    height: 135px;
     text-align: end;
 }
+
+.display-6 {
+    opacity: 0.5;
+}
+
+.temp-result {
+    text-align: start;
+    position:absolute;
+    opacity: 0.5;
+}
+
 
 .botones {
     background-color: var(--botones-color);
@@ -101,6 +124,16 @@ body {
     max-width: 40.81%;
 }
 
+.reset:hover {
+    background-color: var(--reset-del-color-hover);
+    border-bottom: 4px solid var(--reset-del-color-hover);
+}
+
+.reset:active {
+    background-color: var(--reset-del-color-active)!important;
+    border-bottom: 4px solid var(--reset-del-color-active)!important;
+}
+
 .del {
     background-color: var(--reset-del-color);
     border-bottom: 4px solid var(--borde-botton);
@@ -109,6 +142,16 @@ body {
     color: var(--aliceblue);
     max-width: 16%;
     font-size: 180%;
+}
+
+.del:hover{
+    background-color: var(--reset-del-color-hover);
+    border-bottom: 4px solid var(--reset-del-color-hover);
+}
+
+.del:active {
+    background-color: var(--reset-del-color-active)!important;
+    border-bottom: 4px solid var(--reset-del-color-active)!important;
 }
 
 .dell {
@@ -123,6 +166,17 @@ body {
     color: var(--aliceblue);
     max-width: 40.81%;
 }
+
+.btn-danger:hover{
+    background-color: var( --danger-hover);
+    border-bottom: var(--danger-hover);
+}
+
+.btn-danger:active {
+    background-color: var( --danger-active)!important;
+    border-bottom: var(--danger-active)!important;
+}
+
 
 @media (min-width: 400px){
     body {

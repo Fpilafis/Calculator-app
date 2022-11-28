@@ -34,37 +34,39 @@
     </div>
   </nav>
   <header>
-    <div class="container mt-2 mb-2 input" id="input">
-      <div class="container h1">123</div>
+    <div class="container mt-2 mb-3 pt-3 pb-5 input" id="input">
+      <div class="container display-6" id="display-uno">0</div>
+      <div class="container display-4 " id="display-dos">0</div>
+      <div class="container temp-result " id="temp-result">0</div>
     </div>
-    <div class="container botones text-center ">
+    <div class="container botones text-center" id="all-buttons">
       <div class="row p-1 d-flex justify-content-sm-around">
-        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">7</div>
-        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">8</div>
-        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">9</div>
-        <div class="col-sm-2 p-2 ps-1 m-1 btn-primary del h3"><p class="dell">DEL</p></div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3 num" id="num">7</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3 num" id="num">8</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3 num" id="num">9</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-primary del h3" id="del"><p class="dell">DEL</p></div>
       </div>
       <div class="row p-1 d-flex justify-content-sm-around">
-        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">4</div>
-        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">5</div>
-        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">6</div>
-        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3">+</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3 num" id="num">4</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3 num" id="num">5</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton h3 num" id="num">6</div>
+        <div class="col-sm-2 p-2 ps-1 m-1 btn-light boton op h3" id="op">+</div>
       </div>
       <div class="row p-1 d-flex justify-content-sm-around">
-        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">1</div>
-        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">2</div>
-        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">3</div>
-        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">-</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3 num" id="num">1</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3 num" id="num">2</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3 num" id="num">3</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton op h3" id="op">-</div>
       </div>
       <div class="row p-1 d-flex justify-content-sm-around">
-        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">.</div>
-        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">0</div>
-        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">/</div>
-        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3">x</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton num h3" id="dot">.</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton h3 num" id="num">0</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton op h3" id="op">/</div>
+        <div class="col-sm-2 p-2 m-1 ps-1 btn-light boton op h3" id="op">X</div>
       </div>
       <div class="row p-1 d-flex justify-content-sm-around">
-        <div class="col-sm-5 p-2 m-2 btn-primary reset h3">RESET</div>
-        <div class="col-sm-5 p-2 m-2 btn-danger h3">=</div>
+        <div class="col-sm-5 p-2 m-2 btn-primary reset h3" id="reset">RESET</div>
+        <div class="col-sm-5 p-2 m-2 btn-danger h3" id="equal">=</div>
       </div>
     </div>
   </header>
